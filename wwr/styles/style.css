@@ -27,6 +27,7 @@ main section {
 }
 #background {
     height: 725px;
+    background-color: #f3da19;
 }
 header{
     background-color: #62b6cb;
@@ -49,9 +50,6 @@ nav a:hover{
     background-color: #f3da19;
     color: black;
 }
-#background{
-    background-color: #f3da19;
-}
 .msg{
     background-color: #62b6cb;
     font-family: "Red Hat Display", Helvetica, sans-serif;
@@ -59,7 +57,7 @@ nav a:hover{
     padding: 35px;
 }
 footer{
-    background-color: gray;
+    background-color: #62b6cb;
     color: black;
     font-family: "Red Hat Display", Helvetica, sans-serif;
     padding: 25px 50px;
