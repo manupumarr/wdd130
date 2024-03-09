@@ -1,0 +1,51 @@
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: steelblue;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+p {
+    padding: 0;
+}
+
+main {
+    max-width: 850px;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 2px solid steelblue;
+    padding: 1rem;
+    background-color: whitesmoke;
+    color: brown;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 10px;
+    border-top: 2px solid whitesmoke;
+    text-align: center;
+}
