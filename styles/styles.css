@@ -1,5 +1,9 @@
+:root {
+    --first-color: steelblue;
+}
+
 nav{
-    background-color: steelblue;
+    background-color: var(--first-color);
     padding: 10px;
 }
 
@@ -10,7 +14,7 @@ nav a{
 }
 
 h1{
-    color: steelblue;
+    color: var(--first-color);
 }
 
 main img{
