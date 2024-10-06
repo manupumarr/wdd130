@@ -2,6 +2,10 @@
     --first-color: steelblue;
 }
 
+main{
+    max-width: 80%;
+}
+
 nav{
     background-color: var(--first-color);
     padding: 10px;
