@@ -3,14 +3,23 @@
     --secondary-color: #004D98;
     --accent1-color: #EDBB00;
     --accent2-color: #ffffff;
+
+    --heading-font: Merienda, serif;
+    --paragraph-font: 'Red Hat Display', serif;
 }
 
 body{
     max-width: 90%;
     margin: auto;
+    font-family: var(--paragraph-font);
 }
 
-header{
+h1, h2, h3, h4{
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+/* header{
     display: flex;
     justify-content: space-between;
     height: 100px;
@@ -19,7 +28,7 @@ header{
     margin: 0 0 10px 0;
     align-items: center;
     padding: 15px;
-}
+} */
 
 header img{
     height: 100px;
@@ -30,9 +39,6 @@ header a{
     color: black;
 }
 
-h1, h2{
-    color: var(--secondary-color);
-}
 
 nav a{
     font-weight: 1000;
@@ -43,21 +49,37 @@ nav a:hover{
     color: var(--accent1-color);
 }
 
-.hero {
-	margin: 10px auto;
-	position: relative;
+.hero{
+    position: relative; 
+  }
+  
+.hero-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+  
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  left: 50%; 
+  transform: translateX(-50%);
+  color: var(--accent2-color);
 }
 
-.hero img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+.hero article {
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(60, 84, 218, 0.7);
+  padding: 20px; 
+  max-width: 500px;
+  text-align: center;
 }
-/* 
-.hero h1{
-    position: absolute;
+  
+.hero article img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px; 
 }
-
-.hero article{
-    position: absolute;
-} */
