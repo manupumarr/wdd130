@@ -85,3 +85,7 @@ nav a:hover{
   padding: 25px;
   float: right;
 }
+
+footer a{
+  text-decoration: none;
+}
