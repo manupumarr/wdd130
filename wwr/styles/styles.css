@@ -19,19 +19,26 @@ h1, h2, h3, h4{
     color: var(--secondary-color);
 }
 
-/* header{
-    display: flex;
-    justify-content: space-between;
+header{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
     height: 100px;
     background-color: var(--primary-color);
     border: solid var(--secondary-color) 2px;
     margin: 0 0 10px 0;
     align-items: center;
     padding: 15px;
-} */
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
 header img{
     height: 100px;
+    padding: 0 0px 0 100px;
 }
 
 header a{
@@ -86,6 +93,55 @@ nav a:hover{
   float: right;
 }
 
+section h2{
+  text-align: center;
+}
+
+.image-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+figure{
+  text-align: center;
+  margin: 10px;
+}
+
+figure img{
+  width: 300px;
+  height: auto;
+}
+
+figure figcaption{
+  font-size: 12px;
+}
+
+section p{
+  display: inline-block;
+  width: 45%;
+  margin: 20px;
+  text-align: justify;
+  max-width: 90%;
+}
+
+.paragraph-container{
+  text-align: center;
+}
+
 footer a{
   text-decoration: none;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--primary-color);
+  border: solid var(--secondary-color) 2px;
+  align-items: center;
+  padding: 5px;
+}
+
+footer p{
+  font-size: 15px;
+  text-align: center;
 }
