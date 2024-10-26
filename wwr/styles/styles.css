@@ -145,3 +145,81 @@ footer p{
   font-size: 15px;
   text-align: center;
 }
+
+.first {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-info {
+  flex: 1;
+  background-color: #a1cee9;
+  padding: 20px;
+  text-align: center;
+}
+
+.map {
+  flex: 2;
+  background-color: var(--accent1-color);
+  padding: 20px;
+}
+
+iframe{
+  width: 600px;
+  height: 400px;
+}
+
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.employees {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.employee {
+  display: flex;
+  align-items: center;
+  background-color: aqua;
+  padding: 20px;
+  border-radius: 10px var(--accent1-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.employee img {
+  max-width: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.contact-form {
+  background-color: #f0f0f0;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #3e8e41;
+}
