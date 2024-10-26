@@ -188,7 +188,6 @@ iframe{
   align-items: center;
   background-color: aqua;
   padding: 20px;
-  border-radius: 10px var(--accent1-color);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
