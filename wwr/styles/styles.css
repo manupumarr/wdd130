@@ -176,6 +176,11 @@ iframe{
   padding: 20px;
 }
 
+.main-content p{
+  color: white;
+  font-size: 15px;
+}
+
 .employees {
   display: flex;
   flex-direction: column;
@@ -186,7 +191,7 @@ iframe{
 .employee {
   display: flex;
   align-items: center;
-  background-color: aqua;
+  background-color: var(--secondary-color);
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -226,4 +231,8 @@ iframe{
 .title01{
   text-align: center;
   margin: 0%;
+}
+
+footer a{
+  color: black;
 }
