@@ -4,8 +4,8 @@
     --accent1-color: #EDBB00;
     --accent2-color: #ffffff;
 
-    --heading-font: Merienda, serif;
-    --body-font: 'Red Hat Display', serif;
+    --heading-font: Consolas, serif;
+    --body-font: arial, serif;
 }
 
 * {
@@ -16,7 +16,7 @@
 
 body{
   margin: auto;
-  font-family: var(--paragraph-font);
+  font-family: var(--body-font);
 }
 
 header, main, footer {
@@ -49,24 +49,24 @@ header a {
   display: block;
 }
 
-h1 {
-  position: absolute;
-  top: 15px;
-  left: 50%; 
-  transform: translateX(-50%);
-  color: var(--accent2-color);
-  width: 100%;
-  padding: 10px;
-  text-align: center;
-  opacity: 0.75;
-  background-color: var(--secondary-color);
-}
-
 .hero article img {
   width: 120px;
   height: auto;
   padding: 25px;
   float: right;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  left: 50%; 
+  transform: translateX(-50%);
+  color: var(--accent1-color);
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  opacity: 0.75;
+  background-color: var(--secondary-color);
 }
 
 h2{
@@ -76,7 +76,7 @@ h2{
   background-color: var(--secondary-color);
 }
 
-article {
+.hero article {
   position: absolute; 
   top: 83%;
   left: 50%;
@@ -87,4 +87,8 @@ article {
   width: 95%;
   text-align: center;
   color: var(--accent2-color);
+}
+
+.socialmedia a {
+  text-decoration: none
 }
