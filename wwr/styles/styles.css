@@ -1,0 +1,90 @@
+:root {
+    --primary-color: #20A4F3;
+    --secondary-color: #004D98;
+    --accent1-color: #EDBB00;
+    --accent2-color: #ffffff;
+
+    --heading-font: Merienda, serif;
+    --body-font: 'Red Hat Display', serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: auto;
+  font-family: var(--paragraph-font);
+}
+
+header, main, footer {
+  width: 900px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+nav, p, section, article {
+  margin: 15px;
+  padding: 5px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    position: relative; 
+  }
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1 {
+  position: absolute;
+  top: 15px;
+  left: 50%; 
+  transform: translateX(-50%);
+  color: var(--accent2-color);
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  opacity: 0.75;
+  background-color: var(--secondary-color);
+}
+
+.hero article img {
+  width: 120px;
+  height: auto;
+  padding: 25px;
+  float: right;
+}
+
+h2{
+  text-align: center;
+  opacity: 0.75;
+  color: var(--accent2-color);
+  background-color: var(--secondary-color);
+}
+
+article {
+  position: absolute; 
+  top: 83%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(5, 89, 158, 0.7);
+  padding: 0;
+  margin: 0%;
+  width: 95%;
+  text-align: center;
+  color: var(--accent2-color);
+}

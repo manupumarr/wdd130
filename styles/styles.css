@@ -11,7 +11,7 @@
 }
 
 main {
-  max-width: 100%;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -34,7 +34,7 @@ h2 {
   position: absolute;
   font-size: 18px;
   top: 22px;
-  left: 75px;
+  left: 65px;
 }
 
 aside{
@@ -84,4 +84,5 @@ aside img {
   padding: 1rem;
   background-color: #eee;
   color: #333;
+  max-width: 300px;
 }
