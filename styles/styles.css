@@ -1,3 +1,33 @@
 main {
     max-width: 840px;
 }
+
+aside {
+    width: 22rem;
+    margin: 1.2rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1.2rem;
+    background-color: lightgray;
+    color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 300px;
+    height: auto;
+}
+
+main img {
+    width: 200px;
+    height: auto;
+}
+
+p {
+    padding: 0;
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
