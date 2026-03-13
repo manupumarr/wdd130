@@ -2,6 +2,21 @@ main {
     max-width: 840px;
 }
 
+nav {
+    background-color: rgb(105, 0, 0);
+    padding: 10px;
+}
+
+nav a {
+    color: aliceblue;
+    padding: 10px;
+    display: block;
+}
+
+h1 {
+    color: rgb(105, 0, 0);
+}
+
 aside {
     width: 22rem;
     margin: 1.2rem;
@@ -13,13 +28,16 @@ aside {
 }
 
 aside img {
-    width: 300px;
+    width: 200px;
     height: auto;
 }
 
 main img {
     width: 200px;
     height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 40px gray;
 }
 
 p {
